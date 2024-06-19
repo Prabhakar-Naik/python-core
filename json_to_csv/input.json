@@ -1,0 +1,17 @@
+[
+    {
+      "Name": "prabhakar",
+      "age": 25,
+      "birthyear": "1999"
+    },
+    {
+      "Name": "Harsha",
+      "age": 30,
+      "birthyear": "1994"
+    },
+    {
+      "Name":"Kiran kumar",
+      "age":24,
+      "birthyear":"2000"
+    }
+  ]
