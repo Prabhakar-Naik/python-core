@@ -4,6 +4,6 @@ def hello(name):
     return f"Hello {name}!"
 
 if __name__ == '__main__':
-    hello("World")
-    hello("Prabhakar")
-    hello("Learner")
+    print(hello("World"))
+    print(hello("Prabhakar"))
+    print(hello("Learner"))
