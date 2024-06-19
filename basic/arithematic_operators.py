@@ -14,6 +14,7 @@ multiple = 4 * 4
 # printing
 print(multiple)
 
+
 # number powers 4 power 4
 multiple = 4 ** 4
 # printing
