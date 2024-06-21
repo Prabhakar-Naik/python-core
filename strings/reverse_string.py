@@ -5,13 +5,13 @@ print(text)
 
 # reverse strings
 
-def reverse_string(data):
+def reverse(data):
     return data[::-1]
 
-reverse = reverse_string(text)
+reverse = reverse(text)
 print(reverse)
 
-print(reverse_string(text))
+print(reverse(text))
 
 
 
