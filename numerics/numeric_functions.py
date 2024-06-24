@@ -40,4 +40,5 @@ print(round(5.678347687, 2))  # Output: 5.68
 print(sum([1, 2, 3]))  # Output: 6
 
 
+# you can refer operators directory for more function on numeric.
 
