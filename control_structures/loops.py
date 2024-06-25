@@ -16,9 +16,10 @@ print("Total:", total)
 # basic while loop Example:
 
 i = 0
-while i < 5:
+while range(i < 5):
     print(i)
     i += 1
+
 
 # Real-Time Scenario: User Login Attempt
 
