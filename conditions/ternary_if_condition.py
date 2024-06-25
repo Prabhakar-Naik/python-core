@@ -6,6 +6,9 @@ num = 10
 
 print(num,"Even") if num % 2 == 0 else print(num,"odd")
 
+value = "Even" if num % 2 == 0 else "odd"
+print(value)
+
 num = 13
 
 print(num,"Even") if num % 2 == 0 else print(num,"odd")

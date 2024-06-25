@@ -1,8 +1,15 @@
 num = 10
 # simple condition
-if num > 2:
+if (num > 11 and num > 5) or num > 5 :
     print("number is greater than 2")
     
+    
+
+    print("JVFKVJ")
+else:
+    print("else block")
+    if num > 5:
+        print("greater than 5")
 # even condition
 if num % 2 == 0:
     print(num,"number is even")
