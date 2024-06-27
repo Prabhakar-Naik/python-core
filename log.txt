@@ -1,0 +1,6 @@
+2024-06-27 16:02:09 - This is an info message.
+2024-06-27 16:02:09 - This is a warning message.
+2024-06-27 16:02:09 - This is an error message.
+2024-06-27 16:02:19 - This is an info message.
+2024-06-27 16:02:19 - This is a warning message.
+2024-06-27 16:02:19 - This is an error message.
