@@ -16,16 +16,19 @@ def koch_curve(t, length, depth):
 
 # Function to draw the Koch snowflake
 def koch_snowflake(t, length, depth):
+    t.begin_fill()
     for _ in range(3):
         koch_curve(t, length, depth)
         t.right(120)
+    t.end_fill()
 
 # Set up the turtle graphics environment
 screen = turtle.Screen()
-screen.bgcolor("white")
+screen.bgcolor("skyblue")  # Set the background color
+
 t = turtle.Turtle()
-t.speed(0)  
-# Set the turtle speed to the maximum
+t.speed(0)  # Set the turtle speed to the maximum
+t.color("blue", "white")  # Set the line color and fill color
 
 # Draw the Koch snowflake
 length = 300  # Length of each side of the snowflake
@@ -33,7 +36,6 @@ depth = 4     # Recursion depth
 t.penup()
 t.goto(-length / 2, length / 3)
 t.pendown()
-
 koch_snowflake(t, length, depth)
 
 # Hide the turtle and display the window
