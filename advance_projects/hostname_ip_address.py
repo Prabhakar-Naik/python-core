@@ -1,5 +1,6 @@
 # importing socket library
 import socket
+# checking
 
 def get_hostname_IP():
     hostname = input("Please enter website address(URL):")
