@@ -48,3 +48,14 @@ i = 1
 while i <= 10:
     print(i)
     i += 2
+
+print(" while loop demo")
+value = 0
+while value <=10:
+    value += 1
+    if value == 5:
+        continue
+    print(value)
+else:
+    print("Value is now equals to ",value)
+
